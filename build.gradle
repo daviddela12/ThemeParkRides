@@ -37,7 +37,7 @@ test {
     useJUnitPlatform()
 }
 
-String imageName = "daviddela12/theme-park-rides:$version"
+String imageName = "daviddela/theme-park-rides:$version"
 
 docker {
     name imageName
